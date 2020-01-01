@@ -54,7 +54,6 @@ def total_gross(source)
     i_directors += 1
   end 
   total_numb
-  i_directors += 1
 end
 
 
