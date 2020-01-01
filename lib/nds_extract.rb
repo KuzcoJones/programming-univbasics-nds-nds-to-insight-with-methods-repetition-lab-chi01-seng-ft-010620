@@ -26,7 +26,7 @@ end
 
 def list_of_directors(source)
   # Write this implementation
-puts source[0][:name]
+puts source[1][:name]
 end
 
 def total_gross(source)
