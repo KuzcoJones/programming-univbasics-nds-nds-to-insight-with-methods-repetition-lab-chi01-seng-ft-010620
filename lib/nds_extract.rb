@@ -50,8 +50,7 @@ def total_gross(source)
   
   while i_directors < source.length do 
     director_name = list_of_directors(source)[i_directors]
-    #total_numb += 
-    puts directors_totals(source)[director_name]
+    total_numb += directors_totals(source)[director_name]
     i_directors += 1
   end 
   total_numb
