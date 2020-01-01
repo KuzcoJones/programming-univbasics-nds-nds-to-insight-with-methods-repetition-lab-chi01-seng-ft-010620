@@ -53,6 +53,7 @@ def total_gross(source)
     total_numb += directors_totals(source)[director_name]
     i_directors += 1
   end 
+  total_numb
   i_directors += 1
 end
 
