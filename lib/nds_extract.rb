@@ -27,10 +27,12 @@ end
 def list_of_directors(source)
   # Write this implementation
   i_directors = 0
+  array_list = []
   while i_directors < source.length do
-    p source[i_directors][:name]
+    array_list << source[i_directors][:name]
     i_directors += 1
   end
+  array_list
 end
 
 def total_gross(source)
