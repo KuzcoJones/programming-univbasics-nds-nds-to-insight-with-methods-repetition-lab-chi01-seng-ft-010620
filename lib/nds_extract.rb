@@ -47,7 +47,7 @@ def total_gross(source)
   # return the total
   i_directors = 0
   #list_of_directors(source)[i_directors]
-  gross_for_director(source)[0]
+  gross_for_director(source, )[0]
 end
 
 
