@@ -46,7 +46,8 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   i_directors = 0
-  p list_of_directors(source)[i_directors]
+  #list_of_directors(source)[i_directors]
+  gross_for_director(source)[0]
 end
 
 
